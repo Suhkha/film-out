@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Platform - Ads</title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <script src="https://kit.fontawesome.com/b61b350b0d.js" crossorigin="anonymous"></script>
+
+    <!-- Styles -->
+    <link href="css/main.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="app">
+      <nav class="flex flex-wrap justify-between px-3 lg:px-20 py-10 items-center text-lg text-gray-700 bg-white">
+        <div class="flex items-center justify-end w-full" id="menu">
+            <ul class="text-base text-gray-700 flex justify-between pt-0">
+                <li>
+                  <a href="index.html" class="p-4 py-2 block hover:text-indigo-500" href="">
+                      Inicio
+                  </a>
+              </li>
+              <li>
+                  <a href="ads.html" class="p-4 py-2 block hover:text-indigo-500" href="">
+                      Anuncios
+                  </a>
+              </li>
+              <li>
+                  <a class="p-4 py-2 block text-indigo-500" href=""">
+                    Salir
+                  </a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="flex h-full justify-center mt-0 md:mt-24 mb-32 md:px-20 px-3">
+      <div class="w-full  mb-12 xl:mb-0">
+        <div class="text-2xl mb-3 px-4 py-3 border-0 text-white bg-indigo-500 flex justify-between">
+            <span>Listado de anuncios</span>
+        </div>
+            
+            <div class="block w-full overflow-x-auto">
+                <table class="items-center bg-transparent w-full border-collapse">
+                    <thead>
+                        <tr>
+                            <th class="px-6 text-gray-800 align-middle border border-solid border-gray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                Source
+                            </th>
+                            <th class="px-6 text-gray-800 align-middle border border-solid border-gray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                Campaña
+                            </th>
+                            <th class="px-6 text-gray-800 align-middle border border-solid border-gray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                No. de visitas
+                            </th>
+                            <th class="px-6 text-gray-800 align-middle border border-solid border-gray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                % conversion rate
+                            </th>
+                            <th class="px-6 text-gray-800 align-middle border border-solid border-gray-100 
+                            py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                                Detalles
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              Facebook
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              promo01
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              1,342 usuarios
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                            37.25%
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              <a href="detail.html" class="bg-indigo-500 text-white hover:bg-indigo-300 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"  >Detalles</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              Instagram
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              promo01
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              1,000 usuarios
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              40%
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              <a href="" class="bg-indigo-500 text-white hover:bg-indigo-300 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"  >Detalles</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              Facebook
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              promo02
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              3,901 usuarios
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              10%
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              <a href="" class="bg-indigo-500 text-white hover:bg-indigo-300 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"  >Detalles</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              Tiktok
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-gray-700 ">
+                              promo02
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              899 usuarios
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              60%
+                          </td>
+                          <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                              <a href="" class="bg-indigo-500 text-white hover:bg-indigo-300 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"  >Detalles</a>
+                          </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Platform - Ads</title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <script src="https://kit.fontawesome.com/b61b350b0d.js" crossorigin="anonymous"></script>
+
+    <!-- Styles -->
+    <link href="css/main.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="app">
+      <nav class="flex flex-wrap justify-between px-3 lg:px-20 py-10 items-center text-lg text-gray-700 bg-white">
+        <div class="flex items-center justify-end w-full" id="menu">
+            <ul class="text-base text-gray-700 flex justify-between pt-0">
+                <li>
+                  <a href="index.html" class="p-4 py-2 block hover:text-indigo-500" href="">
+                      Inicio
+                  </a>
+              </li>
+              <li>
+                  <a href="ads.html" class="p-4 py-2 block hover:text-indigo-500" href="">
+                      Anuncios
+                  </a>
+              </li>
+              <li>
+                  <a class="p-4 py-2 block text-indigo-500" href=""">
+                    Salir
+                  </a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="flex h-full justify-center mt-0 md:mt-24 mb-32 md:px-20 px-3">
+        <div class="w-full md:px-0">
+            <div class="text-2xl mb-3 px-4 py-3 border-0 text-white bg-indigo-500 flex justify-between">
+                <span>Campaña: promo01</span>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mt-5">
+                <div class="col-span-2 md:col-span-1 md:grid">
+                    <img src="/img/chart01.png" alt="">
+                </div>
+
+                <div class="col-span-2 md:col-span-1 md:grid">
+                    <div class="card inline-block overflow-hidden">
+                        <div class="card__copy pb-5">
+                            <div class="card__body text-base pb-2">
+                                <label class="block uppercase md:text-sm text-xs text-light font-semibold text-gray-700">Source: </label>
+                                <span class="block mb-3">Facebook</span>
+    
+                                <label class="block uppercase md:text-sm text-xs text-light font-semibold text-gray-700">No. visitas: </label>
+                                <span class="block mb-3 recipes">1,342</span>
+
+                                <label class="block uppercase md:text-sm text-xs text-light font-semibold text-gray-700">No. acciones: </label>
+                                <span class="block mb-3 recipes">500</span>
+
+                                <label class="block uppercase md:text-sm text-xs text-light font-semibold text-gray-700">% conversion rate: </label>
+                                <span class="block mb-3 recipes">37.25%</span>
+                            </div>
+    
+                            <a href="" class="bg-indigo-500 text-white text-xs font-bold uppercase md:px-6 px-3 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">Descargar informe</a>
+    
+                        </div>
+                        <div class='flex items-center justify-end pb-10 mx-3 md:mx-7'>
+                            <a href="index.html" class='text-indigo-500'> < Regresar</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </main>
+  </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
