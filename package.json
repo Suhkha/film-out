@@ -5,7 +5,11 @@
     "tailwindcss": "^3.1.4"
   },
   "scripts": {
+    "start": "http-server ./public",
     "dev": "tailwindcss -i ./src/main.css -o ./public/css/main.css",
     "prod": "tailwindcss -o ./public/css/main.css --minify"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
   }
 }
