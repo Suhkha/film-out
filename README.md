@@ -4,6 +4,7 @@
 ```
 $ npm install
 $ npm dev
+$ npm start
 ```
 
 ## Link to view the page
